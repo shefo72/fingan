@@ -172,6 +172,9 @@
     margin: 0;
     height: 50px;
   }
+  .main-header .container .logo img {
+    margin-right: 15px;
+  }
 }
 
 

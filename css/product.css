@@ -167,3 +167,11 @@ body{
   background-color: #8c2853;
   color: #fff;
 }
+
+
+@media (max-width: 768px) {
+  .product-filter::before,
+.product-filter::after{
+  height: 0px;
+}
+}
