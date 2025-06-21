@@ -349,11 +349,15 @@
   transform: translateY(-5px);
   box-shadow: 0 0 20px rgba(88, 33, 33, 0.15);
 }
+.branch-card:hover i {
+  transform: rotate(360deg);
+}
 
 .branch-card i {
   font-size: 45px;
   color: #561430;
   margin-bottom: 15px;
+  transition: var(--transition-time);
 }
 
 .branch-card h3 {
@@ -403,6 +407,12 @@
   border-radius: 10px;
   max-width: 300px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.review:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
 }
 
 .review p {

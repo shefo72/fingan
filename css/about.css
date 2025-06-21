@@ -55,6 +55,8 @@
   border-radius: 15px;
   z-index: 1;
 }
+
+
 .about .container .content div h3 {
   color: var(--subColor);
   font-size: 28px;
@@ -74,6 +76,11 @@
   height: 3px;
   background:  var(--subColor);
   border-radius: 2px;
+  transition: var(--transition-time);
+}
+.about .container .content .vision:hover h3::after,
+.about .container .content .values:hover h3::after {
+  width: 140px;
 }
 .about .container .content div  p {
   color: var(--subColor);
@@ -358,7 +365,7 @@
   height: 3px;
   background-color: var(--subColor);
   border-radius: 2px;
-  transition: all 0.3s ease;
+  transition: var(--transition-time);
 } 
 
 .team .container .first_row .person .name .detailes,

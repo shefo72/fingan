@@ -16,6 +16,7 @@ body{
   font-weight: 800;
   margin-bottom: 60px;
   color: var(--subColor);
+  animation: downup 1s ease-in-out;
 }
 
 .products .products-items {
@@ -25,6 +26,7 @@ body{
   max-width: 1200px;
   width: 100%;
   padding: 0 20px;
+  animation: downup 1s ease-in-out  0.5s both;
 }
 .products .products-items .item {
   background-color: #fff;
@@ -121,6 +123,7 @@ body{
   flex-wrap: wrap;
   position: relative;
   width: fit-content;
+  animation: updown 1s ease-in-out;
 }
 
 .product-filter::before,
