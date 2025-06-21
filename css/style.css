@@ -1,5 +1,3 @@
-
-
 /*  Hero Section */
 .hero {
   position: relative;
@@ -35,11 +33,13 @@
   font-weight: bold;
   margin-bottom: 15px;
   line-height: 1.3;
+  animation: updown 0.8s ease-out;
 }
 
 .hero p {
   font-size: 20px;
   margin-bottom: 2rem;
+  animation: downup 1s ease-out;
 }
 
 .hero-buttons {
@@ -47,6 +47,7 @@
   justify-content: center;
   gap: 18px;
   flex-wrap: wrap;
+  animation: downup 1s ease-out 0.8s both;
 }
 
 .btn {

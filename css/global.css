@@ -5,6 +5,10 @@
   --navHover : #C84C30; 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -31,11 +35,6 @@
   a {
     text-decoration: none;
   }
-
-
-
-
-
 
 
   
@@ -360,3 +359,29 @@ footer .container .contact p::selection ,
   color:  var(--subColor) !important;
   background: var(--mainColor) !important;
 }
+
+
+
+/* Animation keyframes */
+@keyframes updown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes downup {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
