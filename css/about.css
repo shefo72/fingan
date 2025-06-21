@@ -93,7 +93,7 @@
 }
 @media (max-width: 768px) {
   .about .container {
-    padding: 0 15px;
+    padding: 0px;
   }
   .about .container .content {
     grid-template-columns: 1fr;
@@ -116,7 +116,7 @@
   .about .container .content {
     gap: 20px;
     padding: 0 5px;
-    width: 105%;
+    width: 100%;
   }
   .about .container .content .values,
   .about .container .content .vision {
