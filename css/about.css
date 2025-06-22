@@ -3,6 +3,8 @@
 }
 .about .container {
   padding: 0 20px;
+  height: 90vh ;
+  max-height: 800px;
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 150px;
@@ -20,7 +22,6 @@
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 40px;
   padding: 0 20px;
-  align-items: start;
 }
 .about .container .content .values,
 .about .container .content .vision {
@@ -59,7 +60,7 @@
 
 .about .container .content div h3 {
   color: var(--subColor);
-  font-size: 28px;
+  font-size: 30px;
   z-index: 2;
   margin-bottom: 30px;
   position: relative;
@@ -142,8 +143,8 @@
 .history {
   background-color: var(--mainColor);
   padding: 50px 0;
-  
 }
+
 .history .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -213,13 +214,9 @@
   right:-100px;
 }
 
-
-
 .history .container .item:nth-child(odd) {
   left: -250px;
 }
-
-
 
 .history .container .item h3 {
   color: var(--subColor);
@@ -380,7 +377,7 @@
   }
 
   .team .container .first_row .person:hover .name p:first-of-type::after,
-.team .container .second_row .person:hover .name p:first-of-type::after {
+  .team .container .second_row .person:hover .name p:first-of-type::after {
   width: 200px;
 }
 
@@ -402,7 +399,6 @@
   background-color: var(--mainColor);
   padding: 50px 0;
 }
-
 .partners .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -413,7 +409,6 @@
   padding-bottom: 80px;
 }
 
-
 .partners .container h2 {
   color: var(--subColor);
   font-size: 36px;
@@ -421,7 +416,6 @@
   text-align: center;
   font-weight: bolder;
 }
-
 .partners .container .partner_group {
   display: flex;
   flex-wrap: wrap;
@@ -455,7 +449,6 @@
   transform: scale(1.08);
   filter: grayscale(0%);
 }
-
 .partners .container .partner_group .partner::before {
   content: '';
   position: absolute;

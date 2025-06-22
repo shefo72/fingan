@@ -2,6 +2,7 @@ body{
   font-family: 'cairo', sans-serif;
   background-color: var(--mainColor);
 }
+
 /* products */
 .products {
   padding: 40px 0;
@@ -34,6 +35,7 @@ body{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   overflow: hidden;
   transition: transform 0.3s ease;
+  position: relative;
 }
 
 .products .products-items .item .img {
@@ -65,10 +67,17 @@ body{
   color: var(--subColor);
 }
 
+.products .products-items .item .details h3:last-of-type {
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .products .products-items .item .details p {
   font-size: 16px;
   color: #666;
-  margin-bottom: 15px;
+  margin-bottom: 120px;
 }
 
 .products .products-items .item .details button {
@@ -82,37 +91,19 @@ body{
   font-weight: bold;
   font-family: 'cairo', sans-serif;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .products .products-items .item .details button:hover {
   background-color: var(--subColor);
   color: var(--mainColor);
 }
-.products .btn {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  align-items: center;
-}
-.products .btn button {
-  padding: 8px 25px;
-  border: none;
-  border-radius: 30px;
-  background-color: var(--subColor);
-  color: #fff;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: 'cairo', sans-serif;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.products .btn button:hover {
-  background-color: var(--hoverColor);
-}
 
-.products .btn button i {
-  margin-right: 7px;
-}
+
+
 
 .product-filter {
   display: flex;
@@ -174,7 +165,7 @@ body{
 
 @media (max-width: 768px) {
   .product-filter::before,
-.product-filter::after{
-  height: 0px;
-}
+  .product-filter::after {
+    height: 0px;
+  }
 }

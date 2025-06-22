@@ -78,7 +78,6 @@
   font-weight: bold;
 }
 
-
 .business-hours {
   background-color: #f9f9f9;
   padding: 25px;
@@ -111,11 +110,6 @@
   border-bottom: none;
 }
 
-
-
-
-
-
 .contact-form {
   padding: 30px;
   max-width: 800px;
@@ -124,7 +118,6 @@
   position: relative;
   animation: downup 1s ease-in-out 0.2s both;
 }
-
 
 .contact-form form {
   display: flex;
@@ -172,11 +165,6 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: var(--hoverColor);
 }
-
-
-
-
-
 
 @media (max-width: 1100px) {
   .main .container .content{
