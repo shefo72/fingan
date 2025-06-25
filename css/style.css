@@ -104,6 +104,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 .products h1 {
   font-size: 40px;
@@ -215,6 +216,7 @@
 .our-story {
   background-color: var(--subColor);
   padding: 70px 25px;
+  overflow-x: hidden;
 }
 
 .our-story .container {
@@ -281,6 +283,7 @@
 .choose_us {
   background-color: var(--mainColor);
   padding: 70px 20px;
+  overflow: hidden;
 }
 
 .choose_us .features-container {
@@ -322,6 +325,7 @@
   background-color: var(--subColor);
   padding: 70px 20px;
   text-align: center;
+  overflow: hidden;
 }
 .branches .container {
   max-width: 1200px;
@@ -391,6 +395,7 @@
   color: #333;
   padding: 80px 20px 120px;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .reviews .container {

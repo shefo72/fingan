@@ -11,6 +11,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Comfortaa:wght@300;400;500;600;700&family=Grandstander:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/global.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
 <body>
 
   <!-- header -->
@@ -45,10 +47,12 @@
   </div>
 </section>
 <!--products Section  -->
-<section class="products">
-  <h1>تسوق منتجاتنا</h1>
+<section class="products" data-aos="fade-up" data-aos-duration="1000">
+  <h1 data-aos="zoom-in" data-aos-delay="100">تسوق منتجاتنا</h1>
+
   <div class="products-items">
-    <div class="item">
+
+    <div class="item" data-aos="fade-right" data-aos-delay="200">
       <div class="img">
         <img src="assets/products/cup 2.jpeg" alt="product">
       </div>
@@ -59,7 +63,8 @@
         <button>اضف الي السلة</button>
       </div>
     </div>
-    <div class="item">
+
+    <div class="item" data-aos="fade-left" data-aos-delay="300">
       <div class="img">
         <img src="assets/products/pake 1 .jpeg" alt="product">
       </div>
@@ -70,7 +75,8 @@
         <button>اضف الي السلة</button>
       </div>
     </div>
-    <div class="item">
+
+    <div class="item" data-aos="flip-up" data-aos-delay="400">
       <div class="img">
         <img src="assets/products/coffee 3.jpg" alt="product">
       </div>
@@ -80,33 +86,42 @@
         <h3>800 EGP</h3>
         <button>اضف الي السلة</button>
       </div>
+    </div>
+
   </div>
-  </div>
-  <div class="btn">
-  <button onclick="window.location.href='products.html'">عرض المزيد <i class="fa-solid fa-arrow-left"></i></button>
+
+  <div class="btn" data-aos="fade-up" data-aos-delay="200">
+    <button onclick="window.location.href='products.html'">
+      عرض المزيد <i class="fa-solid fa-arrow-left"></i>
+    </button>
   </div>
 </section>
 <!-- ourstory Section -->
-<section class="our-story">
+<section class="our-story" data-aos="fade-up" data-aos-duration="1000">
   <div class="container">
-    <div class="story-text">
-      <h2>قصتنا بدأت من فنجان </h2>
+
+    <div class="story-text" data-aos="fade-right" data-aos-delay="200">
+      <h2>قصتنا بدأت من فنجان</h2>
       <p>
-        من حب بسيط للقهوة، بدأنا نحلم بتجربة أدفى من مجرد مشروب. فنجان هو لحظة هدوء، ودفا، وحكاية صغيرة بتبدأ مع أول رشفة. اخترنا نقدملك القهوة بطريقة تحسسك إنك في مكانك، ومعاها مخبوزات معمولة بإيدينا – من كرواسون طري لكوكيز بيدوّب – علشان اللحظة تكمل وتبقى أطيب.
+        من حب بسيط للقهوة، بدأنا نحلم بتجربة أدفى من مجرد مشروب. فنجان هو لحظة هدوء، ودفا، وحكاية صغيرة بتبدأ مع أول رشفة.
+        اخترنا نقدملك القهوة بطريقة تحسسك إنك في مكانك، ومعاها مخبوزات معمولة بإيدينا – من كرواسون طري لكوكيز بيدوّب –
+        علشان اللحظة تكمل وتبقى أطيب.
       </p>
-      <a href="about.html" class="story-btn">اعرف أكتر</a>
+      <a href="about.html" class="story-btn" data-aos="zoom-in" data-aos-delay="400">اعرف أكتر</a>
     </div>
-    <div class="story-img">
+
+    <div class="story-img" data-aos="fade-left" data-aos-delay="300">
       <img src="assets/our story.jpg" alt="our story img">
     </div>
+
   </div>
 </section>
 
 <!-- choose us Section -->
-<section class="choose_us">
+<section class="choose_us" data-aos="fade-up" data-aos-duration="1000">
   <div class="features-container">
-    
-    <div class="feature">
+
+    <div class="feature" data-aos="zoom-in" data-aos-delay="100">
       <i class="fa-solid fa-truck-fast"></i>
       <h3>توصيل سريع</h3>
       <p>
@@ -115,7 +130,7 @@
       </p>
     </div>
 
-    <div class="feature">
+    <div class="feature" data-aos="flip-left" data-aos-delay="200">
       <i class="fa-solid fa-leaf"></i>
       <h3>جودة من الطبيعة</h3>
       <p>
@@ -124,7 +139,7 @@
       </p>
     </div>
 
-    <div class="feature">
+    <div class="feature" data-aos="fade-up" data-aos-delay="300">
       <i class="fa-solid fa-dolly"></i>
       <h3>شحن مجاني</h3>
       <p>
@@ -133,7 +148,7 @@
       </p>
     </div>
 
-    <div class="feature">
+    <div class="feature" data-aos="zoom-in" data-aos-delay="400">
       <i class="fa-solid fa-mug-hot"></i>
       <h3>قهوة مختارة بعناية</h3>
       <p>
@@ -142,7 +157,7 @@
       </p>
     </div>
 
-    <div class="feature">
+    <div class="feature" data-aos="flip-left" data-aos-delay="500">
       <i class="fa-solid fa-bread-slice"></i>
       <h3>مخبوزات طازجة يومياً</h3>
       <p>
@@ -151,7 +166,7 @@
       </p>
     </div>
 
-    <div class="feature">
+    <div class="feature" data-aos="fade-up" data-aos-delay="600">
       <i class="fa-solid fa-heart"></i>
       <h3>حب في كل تفصيلة</h3>
       <p>
@@ -164,75 +179,83 @@
 </section>
 
 <!--branches  Section -->
-<section class="branches">
+<section class="branches" data-aos="fade-up" data-aos-duration="1000">
   <div class="container">
-    <h2 class="section-title">فروعنا</h2>
+    <h2 class="section-title" data-aos="zoom-in" data-aos-delay="100">فروعنا</h2>
+
     <div class="branches-grid">
-      
-      <div class="branch-card">
+
+      <div class="branch-card" data-aos="fade-up" data-aos-delay="200">
         <i class="fa-solid fa-location-dot"></i>
         <h3>فرع المعادي</h3>
         <p>كورنيش المعادي، بجوار مستشفى السلام الدولي</p>
         <a href="https://goo.gl/maps/xyz" target="_blank">افتح في الخريطة</a>
       </div>
 
-      <div class="branch-card">
+      <div class="branch-card" data-aos="fade-up" data-aos-delay="300">
         <i class="fa-solid fa-location-dot"></i>
         <h3>فرع التجمع</h3>
         <p>داون تاون مول، شارع التسعين، التجمع الخامس</p>
         <a href="https://goo.gl/maps/xyz" target="_blank">افتح في الخريطة</a>
       </div>
 
-      <div class="branch-card">
+      <div class="branch-card" data-aos="fade-up" data-aos-delay="400">
         <i class="fa-solid fa-location-dot"></i>
         <h3>فرع مدينة نصر</h3>
         <p>شارع مكرم عبيد، أمام سيتي ستارز، مدينة نصر</p>
         <a href="https://goo.gl/maps/xyz" target="_blank">افتح في الخريطة</a>
       </div>
 
-      <div class="branch-card">
+      <div class="branch-card" data-aos="fade-up" data-aos-delay="500">
         <i class="fa-solid fa-location-dot"></i>
         <h3>فرع الاسكندرية</h3>
         <p>١٥ شارع فؤاد، محطة الرمل، الإسكندرية</p>
         <a href="https://goo.gl/maps/xyz" target="_blank">افتح في الخريطة</a>
       </div>
 
-      <div class="branch-card">
+      <div class="branch-card" data-aos="fade-up" data-aos-delay="600">
         <i class="fa-solid fa-location-dot"></i>
         <h3>فرع الجيزة</h3>
         <p>شارع جامعة الدول العربية، بجوار سفنكس، المهندسين</p>
         <a href="https://goo.gl/maps/xyz" target="_blank">افتح في الخريطة</a>
       </div>
+
     </div>
   </div>
 </section>
 
 <!-- reviews Section -->
-<section class="reviews" >
+<section class="reviews" data-aos="fade-up" data-aos-duration="800">
   <div class="container">
-    <h2>آراء عملائنا</h2>
+    <h2 data-aos="zoom-in" data-aos-delay="100">آراء عملائنا</h2>
+
     <div class="review-grid">
-      <div class="review">
+      <div class="review" data-aos="flip-up" data-aos-delay="200">
         <p>"الخدمة ممتازة والأكل طعمه خطير، كل يوم بطلب من عندكم!"</p>
         <h4>منار احمد</h4>
       </div>
-      <div class="review">
+
+      <div class="review" data-aos="flip-up" data-aos-delay="300">
         <p>"البراونيز ناعمة وطعمها متوازن، حسيت إنهم معمولين بالبيت."</p>
         <h4>روان محمد</h4>
       </div>
-      <div class="review">
+
+      <div class="review" data-aos="flip-up" data-aos-delay="400">
         <p>"القهوجي عارف شغله، القهوة عندكم بتدي نشاط وحيوية للصبح."</p>
         <h4>آية خالد</h4>
       </div>
-      <div class="review">
+
+      <div class="review" data-aos="flip-up" data-aos-delay="500">
         <p>"التوصيل كان أسرع مما توقعت، والأكل وصل دافئ وطعمه لذيذ جداً."</p>
         <h4>جوزيف بطرس</h4>
       </div>
-      <div class="review">
+
+      <div class="review" data-aos="flip-up" data-aos-delay="600">
         <p>"أحببت التنوع في الفطار، عندكم حاجات تناسب كل الأذواق."</p>
         <h4>منى سامي</h4>
       </div>
-      <div class="review">
+
+      <div class="review" data-aos="flip-up" data-aos-delay="700">
         <p>"البيئة في المكان مريحة، والأسعار معقولة جداً بالنسبة للجودة."</p>
         <h4>أدهم سمير</h4>
       </div>
@@ -290,6 +313,10 @@
   menuToggle.addEventListener('click', () => {
   navLinks.classList.toggle('open');
   });
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
 </script>
 </body>
 </html>

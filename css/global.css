@@ -36,13 +36,14 @@ body {
   font-family: 'Cairo', sans-serif;
 }
 
+
 a {
   text-decoration: none;
 }
 
 /*  Header */
 .main-header {
-  background-color: #edebe5 ;
+  background-color: var(--mainColor) ;
   padding: 0.8rem 2rem;
   position: sticky;
   top: 0;
@@ -74,6 +75,8 @@ a {
   align-items: center;
   justify-content: center;
   margin-bottom: 10px;
+  flex-wrap: wrap;
+  background-color: var(--mainColor);
 }
 .nav-links a {
   position: relative;
@@ -153,9 +156,8 @@ a {
   .nav-links {
     display: none;
     flex-direction: column;
-    width: 100%;
+    width: calc(100%);
     text-align: right;
-    margin-top: 10px;
   }
 
   .nav-links a {
